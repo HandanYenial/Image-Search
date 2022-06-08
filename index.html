@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4b1a2b1b23.js" crossorigin="anonymous"></script>
+    <title> Image Search </title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="nav">
+                <h2><i class="fa-solid fa-camera"> Image Search </i></h2>
+                <div class="search-box">
+                    <input type="text" id="input" placeholder="Search for image">
+                    <i onclick="loadImg()" class="fa-solid fa-magnifying-glass"></i>
+                </div> <!--so when clcik on the search icon loadImg function will run-->
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="grid">
+            <!--this is where our search result images will show-up-->
+        </div>
+    </div>
+   <script src="app.js"></script> 
+</body>
+</html>
